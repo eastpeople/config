@@ -16,8 +16,8 @@ spring:
 
 mongodb:
   databaseName: xpg_mp
-#  host: localhost
-  host: 169.56.79.178
+  host: localhost
+#  host: 169.56.79.178
   port: 27017
   
 local:
