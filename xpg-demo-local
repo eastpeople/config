@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    driver-class-name: null
+    url: null
+    username: null
+    password: null
+    tomcat:
+      initial-size: 5
+      max-idle: 5
+      min-idle: 5
+      max-wait: 3000
+      validation-query: SELECT 1 FROM DUAL
+      test-on-borrow: true
+      time-between-eviction-runs-millis: 6000
+      remove-abandoned: true
+
+mongodb:
+  databaseName: xpg_mp
+#  host: localhost
+  host: 169.56.79.178
+  port: 27017
+  
+local:
+  redis:
+    uri: localhost:6379
+    host: localhost
+    port: 6379
