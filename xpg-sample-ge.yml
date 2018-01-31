@@ -17,3 +17,6 @@ redis:
 thread:
   fixedThreadPool:
     maxCount: 20
+collections:
+  INFXPG001: MenuAll
+  INFXPG030: Contents
