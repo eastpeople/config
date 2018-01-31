@@ -16,4 +16,4 @@ redis:
     password: 
 thread:
   fixedThreadPool:
-    maxCount: 30
+    maxCount: 20
