@@ -15,4 +15,5 @@ redis:
     enalbed: false
     password: 
 thread:
-  maxcount: 20
+  fixedThreadPool:
+    maxCount: 30
