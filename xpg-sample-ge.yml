@@ -19,6 +19,7 @@ task:
     maxCount: 20
   full:
     dir: C:/develop/FullData
-collections:
-  INFXPG001: MenuAll
-  INFXPG030: Contents
+user:
+  collections:
+    INFXPG001: MenuAll
+    INFXPG030: Contents
