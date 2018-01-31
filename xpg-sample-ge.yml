@@ -17,6 +17,8 @@ redis:
 task:
   fixedThreadPool:
     maxCount: 20
+  full:
+    dir: C:/develop/FullData
 collections:
   INFXPG001: MenuAll
   INFXPG030: Contents
