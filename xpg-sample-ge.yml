@@ -14,7 +14,7 @@ redis:
     port: 
     enalbed: false
     password: 
-thread:
+task:
   fixedThreadPool:
     maxCount: 20
 collections:
