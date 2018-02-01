@@ -22,6 +22,8 @@ task:
     maxCount: 20
   full:
     dir: C:/develop/FullData
+  logs:
+    maxsize: 30
 user:
   collections:
     INFXPG001:
