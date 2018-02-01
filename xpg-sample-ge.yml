@@ -22,6 +22,10 @@ task:
 user:
   collections:
     INFXPG001:
-      '01': MenuAll
+      '01': 
+        name: MenuAll
+        key: menu_stb_svc_id
     INFXPG030:
-      '01': Contents
+      '01': 
+        name: Contents
+        key: epsd_rslu_id
