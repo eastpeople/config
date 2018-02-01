@@ -25,6 +25,24 @@ user:
       '01': 
         name: MenuAll
         key: menu_stb_svc_id
+      '02': 
+        name: MenuHome
+        key: menu_stb_svc_id
+      '03': 
+        name: MenuMonthly
+        key: menu_stb_svc_id
+      '04': 
+        name: Menu4
+        key: menu_stb_svc_id
+      '05': 
+        name: Menu5
+        key: menu_stb_svc_id
+      '06': 
+        name: Menu6
+        key: menu_stb_svc_id
+      '07': 
+        name: Menu7
+        key: menu_stb_svc_id
     INFXPG030:
       '01': 
         name: Contents
