@@ -25,25 +25,33 @@ user:
       '01': 
         name: MenuAll
         key: menu_stb_svc_id
+        parser: simple
       '02': 
         name: MenuHome
         key: menu_stb_svc_id
+        parser: jackson
       '03': 
         name: MenuMonthly
         key: menu_stb_svc_id
+        parser: jackson
       '04': 
         name: Menu4
         key: menu_stb_svc_id
+        parser: jackson
       '05': 
         name: Menu5
         key: menu_stb_svc_id
+        parser: jackson
       '06': 
         name: Menu6
         key: menu_stb_svc_id
+        parser: jackson
       '07': 
         name: Menu7
         key: menu_stb_svc_id
+        parser: jackson
     INFXPG030:
       '01': 
         name: Contents
         key: epsd_rslu_id
+        parser: simple
