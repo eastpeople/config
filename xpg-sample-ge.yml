@@ -8,12 +8,12 @@ redis:
   first:
     host: localhost
     port: 6379
-    password: 
+    password: null
   second:
     host: 1.1.1.1:6379
-    port: 
+    port: null
     enalbed: false
-    password: 
+    password: null
 task:
   fixedThreadPool:
     maxCount: 20
@@ -21,5 +21,7 @@ task:
     dir: C:/develop/FullData
 user:
   collections:
-    INFXPG001: MenuAll
-    INFXPG030: Contents
+    INFXPG001:
+      '01': MenuAll
+    INFXPG030:
+      '01': Contents
