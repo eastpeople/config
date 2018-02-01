@@ -29,7 +29,7 @@ user:
       '02': 
         name: MenuHome
         key: menu_stb_svc_id
-        parser: simple
+        parser: jackson
       '03': 
         name: MenuMonthly
         key: menu_stb_svc_id
