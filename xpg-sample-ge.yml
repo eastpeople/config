@@ -4,6 +4,9 @@ spring:
       charset: UTF-8
   jackson:
     default-property-inclusion: NON_NULL
+management:
+  security:
+    enabled: false
 redis:
   first:
     host: localhost
