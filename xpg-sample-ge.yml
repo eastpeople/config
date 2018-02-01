@@ -25,11 +25,11 @@ user:
       '01': 
         name: MenuAll
         key: menu_stb_svc_id
-        parser: jackson
+        parser: 1
       '02': 
         name: MenuHome
         key: menu_stb_svc_id
-        parser: jackson
+        parser: 1
       '03': 
         name: MenuMonthly
         key: menu_stb_svc_id
