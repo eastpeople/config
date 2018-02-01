@@ -46,6 +46,9 @@ user:
       '07':
         name: Menu7
         key: menu_stb_svc_id
+      '08':
+        name: Menu8
+        key: menu_stb_svc_id
     INFXPG030:
       '01':
         name: Contents
