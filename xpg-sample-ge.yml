@@ -22,36 +22,28 @@ task:
 user:
   collections:
     INFXPG001:
-      '01': 
+      '01':
         name: MenuAll
         key: menu_stb_svc_id
-        parser: 1
-      '02': 
+      '02':
         name: MenuHome
         key: menu_stb_svc_id
-        parser: 1
-      '03': 
+      '03':
         name: MenuMonthly
         key: menu_stb_svc_id
-        parser: jackson
-      '04': 
+      '04':
         name: Menu4
         key: menu_stb_svc_id
-        parser: jackson
-      '05': 
+      '05':
         name: Menu5
         key: menu_stb_svc_id
-        parser: jackson
-      '06': 
+      '06':
         name: Menu6
         key: menu_stb_svc_id
-        parser: jackson
-      '07': 
+      '07':
         name: Menu7
         key: menu_stb_svc_id
-        parser: jackson
     INFXPG030:
-      '01': 
+      '01':
         name: Contents
         key: epsd_rslu_id
-        parser: jackson
