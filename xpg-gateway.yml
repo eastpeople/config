@@ -3,3 +3,9 @@ server:
 zuul:
   routes:
     xpg-sample-ge: /ge/**
+management:
+  security:
+    enabled: false
+endpoints:
+  restart:
+    enabled: true
