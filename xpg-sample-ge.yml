@@ -51,7 +51,7 @@ user:
         name: Menu6
         key: menu_stb_svc_id
       '07':
-        name: Menu7
+        name: Menu888
         key: menu_stb_svc_id
     INFXPG030:
       '01':
