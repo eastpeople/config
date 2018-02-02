@@ -2,7 +2,8 @@ server:
   port: 8080
 zuul:
   routes:
-    xpg-sample-ge: /ge/**
+    ge:
+      url: http://localhost:8081
 management:
   security:
     enabled: false
