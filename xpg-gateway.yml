@@ -3,7 +3,7 @@ server:
 zuul:
   routes:
     ge:
-      url: http://localhost:8082
+      url: http://localhost:8081
 management:
   security:
     enabled: false
