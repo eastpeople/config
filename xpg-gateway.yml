@@ -1,0 +1,5 @@
+server:
+  port: 8080
+zuul:
+  routes:
+    xpg-sample-ge: /ge/**
