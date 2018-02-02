@@ -3,7 +3,16 @@ server:
 zuul:
   routes:
     ge:
-      url: http://localhost:8081
+      serviceId: ge-service
+      stripPrefix: true
+ge-service:
+  ribbon:
+    NIWSServerListClassName: com.netflix.loadbalancer.ConfigurationBasedServerList
+    ListOfServers: http://localhost:8081,http://localhost:8082
+    ConnectTimeout: 1000
+    ReadTimeout: 3000
+    MaxTotalHttpConnections: 500
+    MaxConnectionsPerHost: 100
 management:
   security:
     enabled: false
