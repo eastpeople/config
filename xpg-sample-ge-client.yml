@@ -4,6 +4,9 @@ spring:
       charset: UTF-8
 server:
   port: 8080
+zuul:
+  routes:
+    xpg-sample-ge: /ge/**
 eureka:
   client:
     serviceUrl:
