@@ -2,10 +2,7 @@ server:
   port: 8081
 eureka:
   client:
-    serviceUrl:
-      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
-  instance:
-    preferIpAddress: true
+    registry-fetch-interval-seconds: 5
 spring:
   http:
     encoding:
