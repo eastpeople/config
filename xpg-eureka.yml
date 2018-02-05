@@ -8,6 +8,9 @@ eureka:
     fetch-registry: false
   server:
     enable-self-preservation: true
+zuul:
+  routes:
+    xpg-sample-ge: /**
 management:
   security:
     enabled: false
