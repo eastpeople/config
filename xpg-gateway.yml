@@ -1,9 +1,9 @@
 server:
-  port: 8080
-zuul:
-  routes:
-    ge:
-      url: http://localhost:8081
+  port: 8761
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
 management:
   security:
     enabled: false
