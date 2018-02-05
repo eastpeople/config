@@ -10,7 +10,7 @@ eureka:
     enable-self-preservation: true
 zuul:
   routes:
-    xpg-sample-ge: /**
+    xpg-sample-ge: /ge/**
 management:
   security:
     enabled: false
