@@ -1,5 +1,9 @@
-server:
-  port: 8081
+spring:
+  http:
+    encoding:
+      charset: UTF-8
+  jackson:
+    default-property-inclusion: NON_NULL
 eureka:
   client:
     serviceUrl:
@@ -7,12 +11,6 @@ eureka:
     registry-fetch-interval-seconds: 5
   instance:
     preferIpAddress: true
-spring:
-  http:
-    encoding:
-      charset: UTF-8
-  jackson:
-    default-property-inclusion: NON_NULL
 management:
   security:
     enabled: false
