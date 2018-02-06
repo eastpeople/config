@@ -4,6 +4,11 @@ spring:
       charset: UTF-8
   jackson:
     default-property-inclusion: NON_NULL
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
 eureka:
   client:
     serviceUrl:
@@ -27,6 +32,13 @@ redis:
     port: null
     enalbed: false
     password: null
+mq:
+  queue:
+    ncms: queue.ncms
+    dead-letter: queue.dead.letter
+  exchange:
+    ncms: exchange.ncms
+    bff: exchange.bff
 task:
   fixedThreadPool:
     maxCount: 20
