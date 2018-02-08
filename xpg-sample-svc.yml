@@ -1,7 +1,7 @@
 user:
   base-results:
-    result:
-    reason:
-    IF:
-    request_time:
-    response_time:
+    result: null
+    reason: null
+    IF: null
+    request_time: null
+    response_time: null
