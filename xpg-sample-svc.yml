@@ -1,5 +1,5 @@
 user:
-  base-results:
+  results:
     result: null
     reason: null
     IF: null
