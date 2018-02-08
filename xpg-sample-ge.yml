@@ -46,31 +46,3 @@ task:
     dir: C:/develop/FullData
   logs:
     maxsize: 30
-user:
-  collections:
-    INFXPG001:
-      '01':
-        name: MenuAll
-        key: menu_stb_svc_id
-      '02':
-        name: MenuHome
-        key: menu_stb_svc_id
-      '03':
-        name: MenuMonthly
-        key: menu_stb_svc_id
-      '04':
-        name: Menuf
-        key: menu_stb_svc_id
-      '05':
-        name: Menufive
-        key: menu_stb_svc_id
-      '06':
-        name: Menusix
-        key: menu_stb_svc_id
-      '07':
-        name: Menuseven
-        key: menu_stb_svc_id
-    INFXPG030:
-      '01':
-        name: Contents
-        key: epsd_rslu_id
