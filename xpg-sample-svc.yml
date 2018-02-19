@@ -8,4 +8,4 @@ user:
   scripts:
     Contents:
       - yn_adult|wat_lvl_cd^rslu_typ_cd|yn_adult = 'N'; if (wat_lvl_cd >= '15') yn_adult = 'Y';
-      - yn_adult2|wat_lvl_cd^rslu_typ_cd|yn_adult = 'N'; if (wat_lvl_cd >= '19') yn_adult = 'Y';
+      - yn_adult2|wat_lvl_cd^rslu_typ_cd|yn_adult2 = 'N'; if (wat_lvl_cd >= '19') yn_adult2 = 'Y';
