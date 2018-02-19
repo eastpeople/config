@@ -5,3 +5,5 @@ user:
     IF: null
     request_time: null
     response_time: null
+  scripts:
+    Contents: yn_adult|wat_lvl_cd^rslu_typ_cd|wat_lvl_cd > 19
