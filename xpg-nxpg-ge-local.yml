@@ -51,7 +51,7 @@ task:
   logs:
     maxsize: 30
   partial:
-    url: http://ncms-api-dev.skb-suy-dev01.mybluemix.net
+    url: http://ncms-api-dev2.skb-suy-dev01.mybluemix.net
     user: user
     password: user123
   my:
