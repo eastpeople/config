@@ -233,8 +233,8 @@ user:
       checkField: sris_id,products,prd_prc_id,prd_typ_cd,asis_prd_typ_cd,possn_yn,lag_capt_typ_cd,rslu_typ_cd,purc_pref_rank,prd_prc,prd_prc_vat,sale_prc,sale_prc_vat,epsd_id,epsd_rslu_id,nscrn_yn,ppm_orgnz_fr_dt,ppm_orgnz_to_dt,next_prd_prc_fr_dt,prd_prc_fr_dt,prd_prc_to_dt,purc_wat_to_dt,use_yn
     INFNXPG016:
       name: contents_cidinfo
-      mqkey: epsd_rslu_id
-      requestparam: epsd_rslu_id
+      mqkey: sris_id,epsd_id,epsd_rslu_id
+      requestparam: sris_id,epsd_id,epsd_rslu_id
       referencekey: epsd_rslu_id
       path: /xpg/v5/contents/cidinfo
       isArray: false
